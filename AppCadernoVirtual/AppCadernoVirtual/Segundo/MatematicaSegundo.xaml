@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Segundo.MatematicaSegundo"
+             Title="Matemática">
+    <ContentPage.Content>
+
+            <StackLayout Padding="26">
+
+                <Label />
+                <Label Text="MATÉRIAS DE MATEMÁTICA DO SEGUNDO ANO" HorizontalTextAlignment="Center" FontSize="Body" FontAttributes="Bold" />
+
+                <Label />
+                <Label Text="Trigonometria" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+                <Label Text="Ciclo Trigonométrico" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+                <Label Text="Geometria Plana" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+                <Label Text="Geometria Espacial" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+                <Label Text="Relação de Euler" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+                <Label Text="Probabilidade" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+                <Label Text="Análise Combinatória" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+                <Label />
+
+                <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+            
+    </ContentPage.Content>
+</ContentPage>

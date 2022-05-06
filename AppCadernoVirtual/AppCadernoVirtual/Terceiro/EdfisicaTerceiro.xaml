@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Terceiro.EdfisicaTerceiro"
+             Title="Educação Física" >
+    <ContentPage.Content>
+
+        <StackLayout Padding="26">
+
+            <Label />
+            <Label Text="MATÉRIAS DE EDUCAÇÃO FÍSICA DO TERCEIRO ANO" HorizontalTextAlignment="Center" FontSize="Body" FontAttributes="Bold" />
+
+            <Label />
+            <Label Text="Corpo em movimento: trabalho e lazer" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Atividade física e qualidade de vida" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Papel das mídias na construção de estereótipos" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Políticas públicas e acesso às práticas corporais" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Planejamento e organização de atividades coletivas" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label />
+
+            <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

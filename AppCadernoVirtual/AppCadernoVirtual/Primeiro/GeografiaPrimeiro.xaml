@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Primeiro.GeografiaPrimeiro"
+             Title="Geografia">
+
+    <ContentPage.Content>
+
+        <StackLayout Padding="26">
+
+            <Label />
+            <Label Text="MATÉRIAS DE GEOGRAFIA DO PRIMEIRO ANO" HorizontalTextAlignment="Center" FontSize="Body" FontAttributes="Bold" />
+
+            <Label />
+            <Label Text="Cartografia" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Geosfera" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Demografia e Urbanização" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Agropecuária" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label />
+
+            <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

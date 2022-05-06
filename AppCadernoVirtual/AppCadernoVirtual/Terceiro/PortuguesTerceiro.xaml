@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Terceiro.PortuguesTerceiro"
+             Title="Português">
+    <ContentPage.Content>
+
+        <StackLayout Padding="26">
+
+            <Label />
+            <Label Text="MATÉRIAS DE PORTUGUÊS DO TERCEIRO ANO" HorizontalTextAlignment="Center" FontSize="Body" FontAttributes="Bold" />
+
+            <Label />
+            <Label Text="Sintaxe do período simples" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Pré-modernismo" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Modernismo (1ª Geração)" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Modernismo (2ª Geração)" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label />
+
+            <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

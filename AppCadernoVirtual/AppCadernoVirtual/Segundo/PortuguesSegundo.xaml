@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Segundo.PortuguesSegundo"
+             Title="Português">
+    <ContentPage.Content>
+        
+        <StackLayout Padding="26">
+
+            <Label />
+            <Label Text="MATÉRIAS DE PORTUGUÊS DO SEGUNDO ANO" HorizontalTextAlignment="Center" FontSize="Body" FontAttributes="Bold" />
+
+            <Label />
+            <Label Text="Modernismo" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Parnasianismo" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Escolas literárias" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Substantivos" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Textos dissertativos" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Numerais" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Verbos" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label />
+
+            <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

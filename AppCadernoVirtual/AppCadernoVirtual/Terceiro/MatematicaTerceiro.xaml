@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Terceiro.MatematicaTerceiro"
+             Title="Matemática">
+    <ContentPage.Content>
+
+        <StackLayout Padding="26">
+
+            <Label />
+            <Label Text="MATÉRIAS DE MATEMÁTICA DO TERCEIRO ANO" HorizontalTextAlignment="Center" FontSize="Body" FontAttributes="Bold" />
+
+            <Label />
+            <Label Text="Números e Álgebra" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Variação de Grandeza: função trigonométrica" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Trigonometria triângulo" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Circunferência" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label />
+
+            <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

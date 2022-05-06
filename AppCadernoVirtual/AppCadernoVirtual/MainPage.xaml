@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.MainPage"
+             Title="Caderno Virtual">
+
+    <StackLayout x:Name="teste" VerticalOptions="CenterAndExpand" Padding="10">
+
+        <Image x:Name="logo2" Style="{StaticResource logoGrande}" />
+        <Label />
+        <ScrollView>
+            
+            <Grid>
+                <Button Grid.Row="0"  Text="Primeiro Ano" Clicked="Button_Clicked_3"  BackgroundColor="DarkRed"/>
+                <Button Grid.Row="1"  Text="Segundo Ano" Clicked="Button_Clicked" BackgroundColor="#444444"/>
+                <Button Grid.Row="2"  Text="Terceiro Ano" Clicked="Button_Clicked_1" BackgroundColor="DarkRed"/>
+            </Grid>
+
+        </ScrollView>
+        <Label />
+        <Label Text="Etec Joaquim Ferreira do Amaral - Jaú" HorizontalTextAlignment="Center"/>
+        <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
+    </StackLayout>
+
+</ContentPage>

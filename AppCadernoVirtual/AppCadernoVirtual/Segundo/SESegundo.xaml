@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Segundo.SESegundo"
+             Title="Sistemas Embarcados">
+    <ContentPage.Content>
+
+        <StackLayout Padding="26">
+
+            <Label />
+            <Label Text="MATÉRIAS DE SISTEMAS EMBARCADOS DO SEGUNDO ANO" HorizontalTextAlignment="Center" FontSize="Body" FontAttributes="Bold" />
+
+            <Label />
+            <Label Text="Utilizar TinkerCad" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Desenvolver projetos no Arduino" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Corpo humano" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Testar e aplicar projetos na pratica" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label />
+
+            <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

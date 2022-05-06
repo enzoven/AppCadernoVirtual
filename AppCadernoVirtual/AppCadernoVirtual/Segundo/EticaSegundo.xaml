@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Segundo.EticaSegundo"
+             Title="Ética">
+    <ContentPage.Content>
+
+        <StackLayout Padding="26">
+
+            <Label />
+            <Label Text="MATÉRIAS DE ÉTICA E CIDADANIA ORGANIZACIONAL DO SEGUNDO ANO" HorizontalTextAlignment="Center" FontSize="Body" FontAttributes="Bold" />
+
+            <Label />
+            <Label Text="Ética no ambiente de trabalho" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Como lidar com situações na vida profissional" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Dinâmicas " HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label />
+
+            <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Primeiro.FIPrimeiro"
+             Title="Fundamentos da Informática">
+
+    <ContentPage.Content>
+
+        <StackLayout Padding="26">
+
+            <Label />
+            <Label Text="MATÉRIAS DE FUNDAMENTOS DA INFORMÁTICA DO PRIMEIRO ANO" HorizontalTextAlignment="Center" FontSize="Body" FontAttributes="Bold" />
+
+            <Label />
+            <Label Text="Pesquisas" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Componentes de um Computador" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="IOT" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Atalhos no teclado" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label />
+
+            <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

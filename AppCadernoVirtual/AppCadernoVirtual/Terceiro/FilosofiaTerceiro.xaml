@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Terceiro.FilosofiaTerceiro"
+             Title="Filosofia">
+    <ContentPage.Content>
+
+        <StackLayout Padding="26">
+
+            <Label />
+            <Label Text="MATÉRIAS DE FILOSOFIA DO TERCEIRO ANO" HorizontalTextAlignment="Center" FontSize="Body" FontAttributes="Bold" />
+
+            <Label />
+            <Label Text="Ética, Moral e Valores" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Distinção entre ética e moral A ética como reflexão sobre os valores morais"  HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Os desafios contemporâneos no campo da ética O conceito de sujeito moral" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Valores" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Consciência e Filosofia" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Desenvolvimento da Consciência" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Consciência e cultura" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Liberdade, submissão e pacto social" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="O pacto social como fundamento do poder político" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Direitos naturais, direitos civis e direitos humanos" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label />
+
+            <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

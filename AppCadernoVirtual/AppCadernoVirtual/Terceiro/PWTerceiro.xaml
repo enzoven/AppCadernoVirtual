@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Terceiro.PWTerceiro"
+             Title="Programação Web III">
+    <ContentPage.Content>
+
+        <StackLayout Padding="26">
+
+            <Label />
+            <Label Text="MATÉRIAS DE PROGRAMAÇÃO WEB III DO TERCEIRO ANO" HorizontalTextAlignment="Center" FontSize="Body" FontAttributes="Bold" />
+
+            <Label />
+            <Label Text="Padrão de arquitetura de software Model-ViewController (MVC): Classes Model; Classes View; Classes Controller" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Utilização de frameworks Model-View-Controller (MVC) para o desenvolvimento Web" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Mapeamento objeto relacional; Mapeamento de URL e roteamento; Sistemas de template; Scaffolding" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label />
+
+            <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

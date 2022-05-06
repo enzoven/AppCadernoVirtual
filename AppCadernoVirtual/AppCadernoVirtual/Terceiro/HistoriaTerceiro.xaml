@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Terceiro.HistoriaTerceiro"
+             Title="História">
+    <ContentPage.Content>
+
+        <StackLayout Padding="26">
+
+            <Label />
+            <Label Text="MATÉRIAS DE HISTÓRIA DO TERCEIRO ANO" HorizontalTextAlignment="Center" FontSize="Body" FontAttributes="Bold" />
+
+            <Label />
+            <Label Text="A Primeira Guerra Mundial" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="A Revolução Russa" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="A formação dos estados totalitários: o Fascismo e o Nazismo" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Crise de 1929" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="A Segunda Guerra Mundial - seus desdobramentos e a participação do Brasil no conflito" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Guerra fria" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Segundo reinado" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="O governo de Floriano Peixoto e o fim da República da espada - A Revolta da armada e a Revolução Federalista" TextColor="White" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Oligarquias"  HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label />
+
+            <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

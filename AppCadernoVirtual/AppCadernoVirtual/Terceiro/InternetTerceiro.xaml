@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Terceiro.InternetTerceiro"
+             Title="Internet">
+    <ContentPage.Content>
+
+        <StackLayout Padding="26">
+
+            <Label />
+            <Label Text="MATÉRIAS DE INTERNET E PROTOCOLOS DE REDE DO TERCEIRO ANO" TextColor="White" HorizontalTextAlignment="Center" FontSize="Body" FontAttributes="Bold" />
+
+            <Label />
+            <Label Text="Introdução aos modelos de referência de arquiteturas de redes (OSI/ISO) - Meios de transmissão e topologias de redes; - Modelos de referência de redes" TextColor="White" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Camadas física, de enlace e de rede • Interfaces de rede cabeada e sem fio; • Endereçamento físico, protocolo e endereçamento IP; • Roteamento; • Protocolos de resolução de endereços e obtenção estática e dinâmica de IP; • Tradução de endereços de IP, firewall e proxy" TextColor="White" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label />
+
+            <Label Text="Enzo Vendramini Paggiaro " TextColor="White" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

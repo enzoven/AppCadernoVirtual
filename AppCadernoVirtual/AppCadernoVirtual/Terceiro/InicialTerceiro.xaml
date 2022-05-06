@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Terceiro.InicialTerceiro">
+    <ContentPage.Content>
+
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="05">
+            
+            <Label Text="MATÉRIAS DO TERCEIRO ANO" HorizontalTextAlignment="Center" FontSize="Medium"/>
+            <Label />
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Button Grid.Row="0" Grid.Column="0" Text="Português" Clicked="Button_Clicked"  BackgroundColor="DarkRed"/>
+                <Button Grid.Row="1" Grid.Column="0" Text="Matemática" Clicked="Button_Clicked_1" BackgroundColor="#444444"/>
+                <Button Grid.Row="2" Grid.Column="0" Text="Química" Clicked="Button_Clicked_2" BackgroundColor="DarkRed"/>
+                <Button Grid.Row="3" Grid.Column="0" Text="Física" Clicked="Button_Clicked_3" BackgroundColor="#444444"/>
+                <Button Grid.Row="4" Grid.Column="0" Text="Biologia" Clicked="Button_Clicked_4" BackgroundColor="DarkRed" />
+                <Button Grid.Row="5" Grid.Column="0" Text="História" Clicked="Button_Clicked_5" BackgroundColor="#444444" />
+                <Button Grid.Row="6" Grid.Column="0" Text="Geografia" Clicked="Button_Clicked_6" BackgroundColor="DarkRed" />
+                <Button Grid.Row="7" Grid.Column="0" Text="Filosofia" Clicked="Button_Clicked_7" BackgroundColor="#444444"/>
+                <Button Grid.Row="7" Grid.Column="1" Text="Sociologia" Clicked="Button_Clicked_8" BackgroundColor="DarkRed"/>
+                <Button Grid.Row="0" Grid.Column="1" Text="Inglês" Clicked="Button_Clicked_9" BackgroundColor="#444444" />
+                <Button Grid.Row="1" Grid.Column="1" Text="Ed Física" Clicked="Button_Clicked_10" BackgroundColor="DarkRed"/>
+                <Button Grid.Row="3" Grid.Column="1" Text="TCC" Clicked="Button_Clicked_11" BackgroundColor="DarkRed"/>
+                <Button Grid.Row="2" Grid.Column="1" Text="Internet" Clicked="Button_Clicked_12" BackgroundColor="#444444" />
+                <Button Grid.Row="5" Grid.Column="1" Text="Qualidade de Software" Clicked="Button_Clicked_13" BackgroundColor="DarkRed" />
+                <Button Grid.Row="4" Grid.Column="1" Text="Programação Web III" Clicked="Button_Clicked_14" BackgroundColor="#444444" />
+                <Button Grid.Row="6" Grid.Column="1" Text="Mobile II" Clicked="Button_Clicked_15" BackgroundColor="#444444" />
+               
+
+
+
+
+            </Grid>
+            <Label />
+            <Label Text="Etec Joaquim Ferreira do Amaral - Jaú" HorizontalTextAlignment="Center"/>
+            <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

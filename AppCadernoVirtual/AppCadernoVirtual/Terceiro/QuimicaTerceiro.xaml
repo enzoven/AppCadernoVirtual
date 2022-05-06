@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Terceiro.QuimicaTerceiro"
+             Title="Química">
+    <ContentPage.Content>
+
+        <StackLayout Padding="26">
+
+            <Label />
+            <Label Text="MATÉRIAS DE QUÍMICA DO TERCEIRO ANO" HorizontalTextAlignment="Center" FontSize="Body" FontAttributes="Bold" />
+
+            <Label />
+            <Label Text="Energia e transformação química: Combustíveis e ambiente e produção e consumo de energia – Termoquímica" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Aspectos dinâmicos das transformações: Cinética: rapidez de reações químicas ou velocidade reações químicas" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Energia e transformação química: A natureza elétrica da matéria; Eletroquímica e Eletrólise" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Modelos quânticos: Radioatividade e energia nuclear; Bombas atômicas e suas consequências; Lixo nuclear; O desastre da desinformação radioativa" TextColor="White" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label />
+
+            <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

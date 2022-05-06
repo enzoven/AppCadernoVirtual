@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Segundo.PWSegundo"
+             Title="Programação Web II">
+    <ContentPage.Content>
+
+        <StackLayout Padding="26">
+
+            <Label />
+            <Label Text="MATÉRIAS DE POGRAMAÇÃO WEB II DO SEGUNDO ANO" HorizontalTextAlignment="Center" FontSize="Body" FontAttributes="Bold" />
+
+            <Label />
+            <Label Text="Utilizar Wamp Server" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="MySQL com Wamp" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Criação de sites" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label />
+            <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

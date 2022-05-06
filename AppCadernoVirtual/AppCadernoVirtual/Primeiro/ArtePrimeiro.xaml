@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Primeiro.ArtePrimeiro"
+             Title="Arte">
+
+    <ContentPage.Content>
+
+        <StackLayout Padding="26">
+
+            <Label />
+            <Label Text="MATÉRIAS DE ARTE DO PRIMEIRO ANO" HorizontalTextAlignment="Center" FontSize="Body" FontAttributes="Bold" />
+
+            <Label />
+            <Label Text="Artes visuais" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Arte Bizantina" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Realismo" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Candido Portinári" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label />
+
+            <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
