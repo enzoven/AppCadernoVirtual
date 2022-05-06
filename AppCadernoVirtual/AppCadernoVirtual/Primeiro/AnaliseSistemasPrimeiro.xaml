@@ -5,7 +5,9 @@
              Title="Análise de Sistemas">
 
     <ContentPage.Content>
-
+        
+<!-- O de sempre, centralizando, alinhando, colocando textinho e formatando -->
+        
         <StackLayout Padding="26">
 
             <Label />

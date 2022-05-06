@@ -19,6 +19,7 @@ namespace AppCadernoVirtual
             InitializeComponent();
             logo2.Source = ImageSource.FromResource("AppCadernoVirtual.Imagem.logo2.png");
 
+            // Definindo a logo da MainPage
             //this.BackgroundImageSource = ImageSource.FromResource("imagem.jpg");
 
             
@@ -26,7 +27,7 @@ namespace AppCadernoVirtual
            NavigationPage.SetHasNavigationBar(this, false);
         }
 
-       
+       // Todos os eventos de cada botão criado no projeto
 
         private void Button_Clicked_3(object sender, EventArgs e)
         {

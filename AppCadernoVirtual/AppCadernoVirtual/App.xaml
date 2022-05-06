@@ -5,6 +5,11 @@
     
     <Application.Resources>
 
+        <!-- Estilo do aplicativo
+        Barras de navegação
+        Nome e cor das barras de navegação
+        Tema do app -->
+        
         <Style TargetType="Image" x:Key="logoGrande">
             <Setter Property="HeightRequest" Value="150" />
         </Style>

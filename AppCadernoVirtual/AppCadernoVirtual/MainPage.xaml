@@ -4,11 +4,18 @@
              x:Class="AppCadernoVirtual.MainPage"
              Title="Caderno Virtual">
 
-    <StackLayout x:Name="teste" VerticalOptions="CenterAndExpand" Padding="10">
+    <!-- Definições do StackLayout que decidi usar para centralizar a logo
+    O padding também ajuda nesse processo junto com o tamanho dos botões -->
+    
+    <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
 
-        <Image x:Name="logo2" Style="{StaticResource logoGrande}" />
+    <!-- Image adicionando uma imagem na página inicial, no caso, o logo escolhido -->
+        
+        <Image x:Name="logo2"/>
         <Label />
         <ScrollView>
+            
+    <!-- Separando os botões, dando nome e mudando a cor! :D -->
             
             <Grid>
                 <Button Grid.Row="0"  Text="Primeiro Ano" Clicked="Button_Clicked_3"  BackgroundColor="DarkRed"/>
@@ -17,6 +24,10 @@
             </Grid>
 
         </ScrollView>
+        
+    <!-- Eu não sabia de nenhuma forma profissional de dar um espaço desses créditos dos botões
+    então eu coloquei esse label vazio. Funcionou! :) -->
+        
         <Label />
         <Label Text="Etec Joaquim Ferreira do Amaral - Jaú" HorizontalTextAlignment="Center"/>
         <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>

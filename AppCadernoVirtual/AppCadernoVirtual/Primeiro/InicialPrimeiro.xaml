@@ -2,13 +2,19 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppCadernoVirtual.Primeiro.InicialPrimeiro">
+
+    <!-- Nesse projeto decidi não utilizar o ScrollView como alguns utilizaram, por isso, usei apenas Grids 
+    para enquadrar todos os botões em uma só página -->
     
     <ContentPage.Content>
-
         <StackLayout VerticalOptions="CenterAndExpand" Padding="05">
 
             <Label Text="MATÉRIAS DO PRIMEIRO ANO" HorizontalTextAlignment="Center" FontSize="Medium"/>
             <Label />
+            
+    <!-- Definições da Grid para deixar todos os botões menores, encaixados de 2 em 2
+    um ao lado do outro, cabendo em uma só página -->        
+            
             <Grid>
 
                 <Grid.ColumnDefinitions>
@@ -25,6 +31,10 @@
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
+       <!-- Botões separados por matéria e cor, definidos cada um em uma posição diferente pela Grid
+       acompanhado de um evento ButtonClicked para registrar o clique do usuário e executar a ação de
+       abrir uma página selecionada -->
+                
                 <Button Grid.Row="0" Grid.Column="0" Text="Português" Clicked="Button_Clicked" BackgroundColor="DarkRed"/>
                 <Button Grid.Row="1" Grid.Column="0" Text="Matemática" Clicked="Button_Clicked_1" BackgroundColor="#444444"/>
                 <Button Grid.Row="2" Grid.Column="0" Text="Química" Clicked="Button_Clicked_2" BackgroundColor="DarkRed"/>
@@ -45,6 +55,7 @@
 
 
             </Grid>
+            <!-- Créditos hehe -->
             <Label />
             <Label Text="Etec Joaquim Ferreira do Amaral - Jaú" HorizontalTextAlignment="Center"/>
             <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
