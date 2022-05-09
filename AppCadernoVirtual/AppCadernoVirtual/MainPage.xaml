@@ -18,9 +18,9 @@
     <!-- Separando os botões, dando nome e mudando a cor! :D -->
             
             <Grid>
-                <Button Grid.Row="0"  Text="Primeiro Ano" Clicked="Button_Clicked_3"  BackgroundColor="DarkRed"/>
-                <Button Grid.Row="1"  Text="Segundo Ano" Clicked="Button_Clicked" BackgroundColor="#444444"/>
-                <Button Grid.Row="2"  Text="Terceiro Ano" Clicked="Button_Clicked_1" BackgroundColor="DarkRed"/>
+                <Button Grid.Row="0" Text="Primeiro Ano" Clicked="Button_Clicked_3"  BackgroundColor="DarkRed"/>
+                <Button Grid.Row="1" Text="Segundo Ano" Clicked="Button_Clicked" BackgroundColor="#444444"/>
+                <Button Grid.Row="2" Text="Terceiro Ano" Clicked="Button_Clicked_1" BackgroundColor="DarkRed"/>
             </Grid>
 
         </ScrollView>
