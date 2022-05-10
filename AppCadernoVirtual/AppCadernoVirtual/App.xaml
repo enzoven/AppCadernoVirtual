@@ -30,12 +30,12 @@
 
         
         <Style TargetType="NavigationPage" >
-            <Setter Property="BarBackgroundColor" Value="Darkred" />
+            <Setter Property="BarBackgroundColor" Value="DarkRed" />
             <Setter Property="BarTextColor" Value="White" />
         </Style>
 
         <Style x:Key="Titulo" TargetType="Label">
-            <Setter Property="TextColor" Value="Darkred" />
+            <Setter Property="TextColor" Value="DarkRed" />
             <Setter Property="HorizontalTextAlignment" Value="Center" />
             
             <Setter Property="Padding" Value="0, 25, 0, 0" />
