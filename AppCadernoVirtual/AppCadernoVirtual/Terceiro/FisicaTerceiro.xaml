@@ -5,8 +5,16 @@
              Title="Física">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="sofrimento dor tortura choro tristeza depressao" HorizontalTextAlignment="Center"/>
             <Label />
+            <Label Text="MATÉRIAS DE FÍSICA DO TERCEIRO ANO" HorizontalTextAlignment="Center" FontSize="Body" FontAttributes="Bold" />
+
+            <Label />
+            <Label Text="Ondas" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Ondulatória" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Acústica" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Eletrostática" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label />
+
             <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
         </StackLayout>
     </ContentPage.Content>

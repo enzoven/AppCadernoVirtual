@@ -6,8 +6,14 @@
     <ContentPage.Content>
         <StackLayout>
             <Label />
-            <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
+            <Label Text="MATÉRIAS DE INGLÊS DO SEGUNDO ANO" HorizontalTextAlignment="Center" FontSize="Body" FontAttributes="Bold" />
+
             <Label />
+            <Label Text="Gramática" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label Text="Interpretação" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+            <Label />
+
+            <Label Text="Enzo Vendramini Paggiaro" HorizontalTextAlignment="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
