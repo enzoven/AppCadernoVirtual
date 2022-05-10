@@ -19,8 +19,8 @@ namespace AppCadernoVirtual
             InitializeComponent();
             logo2.Source = ImageSource.FromResource("AppCadernoVirtual.Imagem.logo2.png");
 
-            //Definindo a logo da MainPage
-            //this.BackgroundImageSource = ImageSource.FromResource("imagem.jpg");
+            // Definindo a logo da MainPage
+            // this.BackgroundImageSource = ImageSource.FromResource("imagem.jpg");
 
             
            

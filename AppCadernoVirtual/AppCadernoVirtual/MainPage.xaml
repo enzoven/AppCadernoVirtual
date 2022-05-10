@@ -13,9 +13,14 @@
         
         <Image x:Name="logo2"/>
         <Label />
-        <ScrollView>
-            
-    <!-- Separando os botões, dando nome e mudando a cor! :D -->
+
+        <!-- Separando os botões, dando nome e mudando a cor! :D 
+         
+         Button cria o botão
+         Grid.Row define a linha do botão
+         Clicked cria a ação de clique para que o botão seja funcional
+         Text define o texto dentro do botão
+         BackgroundColor define a cor de fundo do botão-->
             
             <Grid>
                 <Button Grid.Row="0" Text="Primeiro Ano" Clicked="Button_Clicked_3"  BackgroundColor="DarkRed"/>
@@ -23,7 +28,8 @@
                 <Button Grid.Row="2" Text="Terceiro Ano" Clicked="Button_Clicked_1" BackgroundColor="DarkRed"/>
             </Grid>
 
-        </ScrollView>
+    <!-- Alguns créditos: 
+    Feitos por label comúns de texto com alinhamento no centro para ficar bonitinho -->
         
     <!-- Eu não sabia de nenhuma forma profissional de dar um espaço desses créditos dos botões
     então eu coloquei esse label vazio. Funcionou! :) -->

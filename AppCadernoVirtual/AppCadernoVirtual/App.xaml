@@ -8,7 +8,15 @@
         <!-- Estilo do aplicativo
         Barras de navegação
         Nome e cor das barras de navegação
+        Fontes
         Tema do app -->
+        
+        <!-- Essa página está alterando algumas propriedades do aplicativo, como por exemplo, a barra de navegação
+        que é localizada no canto superior esquerdo do app
+        
+        Modifica também a cor do tema do celular onde ficam a hóra, bateria, sinal, notificações e outros
+        
+        O texto da barra de navegação e seu texto também é configurada por aqui -->
         
         <Style TargetType="Image" x:Key="logoGrande">
             <Setter Property="HeightRequest" Value="150" />
